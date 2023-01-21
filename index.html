@@ -1,11 +1,35 @@
 <!DOCTYPE html>
+<!-- мова коду -->
 <html lang="en">
   <head>
+    <!-- Тип кодування.utf-8 - універсальний набір символів, що включає майже всі символи з усіх мов людства. Така веб-сторінка зможе працювати з будь-якою мовою. -->
     <meta charset="UTF-8" />
+    <meta name="author" content="Maryana Seniv" />
+    <!-- Короткий опис вмісту сторінки враховується пошуковими системами при збігу ключових слів. Таке називають пошуковою оптимізацією, або SEO. -->
+    <meta
+      name="description"
+      content="It is a test site where I try to learn html/css/js with mdn course"
+    />
+    <!-- У мережі ви знайдете також інші типи метаданих. Багато хто з них – це власні формати, створені для надання певним сайтам (наприклад, соціальних мереж) спеціальної інформації, яку вони можуть використовувати.
+    Наприклад, Протокол Open Graph створений Facebook, щоб надати сайтам додаткові можливості використання метаданих.
+    -->
+    <meta property="og:image" content="images/corgidog.jpg" />
+    <meta
+      property="og:description"
+      content="It is a test site where I try to learn html/css/js with mdn course"
+    />
+    <meta property="og:title" content="MDN learning" />
+    <!-- Twitter також має власний формат метаданих, за допомогою якого створюється аналогічний ефект, при відображенні URL сайту на twitter.com: -->
+    <meta name="twitter:title" content="MDN learning">
+    <!-- добавляння іконки до заголовку вкладки -->
+    <link rel="shortcut icon" href="images/favicon.jpeg" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My test page</title>
+    <!-- заголовок вкладки -->
+    <title>Mdn learning</title>
+    <!-- підключення файлу css -->
     <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <!-- підключення типу шрифтів з Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,400;1,700&display=swap"
       rel="stylesheet"
@@ -44,6 +68,7 @@
       <li>LIFE EXPECTANCY 12-13 years</li>
     </ul>
     <button>Change user</button>
+    <!-- підключення js -->
     <script src="scripts/main.js"></script>
   </body>
 </html>
